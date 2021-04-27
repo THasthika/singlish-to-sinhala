@@ -22,9 +22,6 @@
     wprintf(L"%lc%lc%lc%lc", a, b, c, d); 
  }
 
-vowels [au|uu|oo|u|oe|o|ea|ei|ii|ie|ee|e|i|Aa|ae|A|\\a|aa|a]
-consonants [k]
-
 %%
 
 
