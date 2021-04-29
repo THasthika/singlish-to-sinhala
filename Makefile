@@ -1,5 +1,5 @@
-singlish-converter: lex.yy.c
-	gcc ./lex.yy.c -o singlish-converter -ll
+main: lex.yy.c
+	gcc ./lex.yy.c -o main -ll
 
 lex.yy.c: singlish.l
 	flex singlish.l
